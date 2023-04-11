@@ -1,0 +1,60 @@
+.forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.forecastContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+  justify-content: center;
+  padding: 20px;
+}
+
+.item {
+  width: 9rem;
+  height: 13rem;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.itemDate {
+  display: flex;
+  justify-content: center;
+}
+
+.itemImg {
+  display: flex;
+  justify-content: center;
+}
+
+.itemContent {
+  display: flex;
+  justify-content: center;
+}
+
+.itemMaxtemp {
+  margin: auto;
+  font-weight: bold;
+}
+
+.itemMintemp {
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .forecast {
+    width: 100%;
+  }
+
+  .item {
+    width: 100%;
+    height: auto;
+  }
+}
